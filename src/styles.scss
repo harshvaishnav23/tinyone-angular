@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+@import "./assets/sass/abstract/_variable";
+@import "./assets/sass/abstract/mixins";
+
+@import "./assets/sass/base/typography";
+@import "./assets/sass/base/utilities";
+
+@import "./assets/sass/component/heroImg.scss";
+@import "./assets/sass/component/navbar";
+@import "./assets/sass/component/feature";
+@import "./assets/sass/component/footer";
+@import "./assets/sass/component/icons";
+@import "./assets/sass/component/buttons";

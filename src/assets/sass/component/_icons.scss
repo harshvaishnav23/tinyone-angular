@@ -1,0 +1,22 @@
+
+.iconList{
+    li{
+        display: inline-block;
+        margin-right: 1rem;
+
+        a{
+            color: $color-dark;
+        }
+    }
+}
+
+.footerLinks{
+    li{
+        
+        a{
+            &:link, &:visited{
+                 color: $color-white;
+            }
+        }
+    }
+}
